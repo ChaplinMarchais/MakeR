@@ -1,0 +1,11 @@
+Package: MakeR
+Title: Manage Manufacturing Processes with R
+Version: 0.0.0.9000
+Authors@R: 
+    person("Chaplin", "Marchais", , "chaplinmarchais42@gmail.com", role = c("aut", "cre"))
+Description: This package provides tools and functions to streamline and optimize manufacturing processes using R.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
