@@ -1,0 +1,26 @@
+Item_ID,Item_Name,Category,Current_Stage,Quantity,Unit,Unit_Cost,Total_Value,Location,Stage1_Hours,Stage2_Hours,Stage3_Hours,Total_Production_Time,Last_Updated,Status
+BATCH001,Motor Assembly A,Product,Stage 3 - Finishing,50,units,250.00,12500.00,Finishing Area,2.5,4.0,1.5,8.0,2024-12-10,In Progress
+BATCH002,Motor Assembly B,Product,Finished,75,units,250.00,18750.00,Finished Goods Warehouse,2.5,4.0,1.5,8.0,2024-12-09,Complete
+BATCH003,Control Panel X,Product,Stage 2 - Assembly,40,units,180.00,7200.00,Production Floor 3,1.5,2.0,0.0,3.5,2024-12-10,In Progress
+BATCH004,Control Panel Y,Product,Finished,60,units,180.00,10800.00,Finished Goods Warehouse,1.5,3.0,1.0,5.5,2024-12-08,Complete
+BATCH005,Housing Unit Standard,Product,Stage 1 - Cutting,100,units,85.00,8500.00,Production Floor 1,0.75,0.0,0.0,0.75,2024-12-10,In Progress
+BATCH006,Housing Unit Premium,Product,Stage 3 - Finishing,45,units,125.00,5625.00,Finishing Area,1.0,2.5,0.5,4.0,2024-12-09,In Progress
+BATCH007,Valve Assembly,Product,Stage 2 - Assembly,80,units,95.00,7600.00,Production Floor 3,1.0,1.5,0.0,2.5,2024-12-10,In Progress
+BATCH008,Pump Component,Product,Finished,120,units,145.00,17400.00,Finished Goods Warehouse,2.0,3.5,1.5,7.0,2024-12-07,Complete
+BATCH009,Gear Box Model A,Product,Stage 1 - Cutting,35,units,220.00,7700.00,Production Floor 1,1.5,0.0,0.0,1.5,2024-12-09,In Progress
+BATCH010,Gear Box Model B,Product,Stage 3 - Finishing,28,units,280.00,7840.00,Finishing Area,2.0,5.0,1.0,8.0,2024-12-10,In Progress
+BATCH011,Sensor Module Basic,Product,Stage 2 - Assembly,150,units,45.00,6750.00,Production Floor 3,0.5,1.0,0.0,1.5,2024-12-08,In Progress
+BATCH012,Sensor Module Advanced,Product,Finished,90,units,75.00,6750.00,Finished Goods Warehouse,0.75,1.5,0.5,2.75,2024-12-10,Complete
+BATCH013,Bracket Set Large,Product,Stage 1 - Cutting,200,units,22.00,4400.00,Production Floor 1,0.5,0.0,0.0,0.5,2024-12-10,In Progress
+BATCH014,Bracket Set Small,Product,Stage 2 - Assembly,180,units,18.00,3240.00,Production Floor 3,0.25,0.5,0.0,0.75,2024-12-09,In Progress
+BATCH015,Cable Harness Type 1,Product,Stage 3 - Finishing,110,units,32.00,3520.00,Finishing Area,0.5,1.0,0.25,1.75,2024-12-10,In Progress
+BATCH016,Cable Harness Type 2,Product,Finished,95,units,38.00,3610.00,Finished Goods Warehouse,0.5,1.25,0.5,2.25,2024-12-08,Complete
+BATCH017,Filter Unit Standard,Product,Stage 1 - Cutting,70,units,55.00,3850.00,Production Floor 1,1.0,0.0,0.0,1.0,2024-12-09,In Progress
+BATCH018,Filter Unit Heavy Duty,Product,Stage 2 - Assembly,55,units,85.00,4675.00,Production Floor 3,1.5,2.0,0.0,3.5,2024-12-10,In Progress
+BATCH019,Display Panel Basic,Product,Stage 3 - Finishing,65,units,120.00,7800.00,Finishing Area,1.0,2.0,1.0,4.0,2024-12-09,In Progress
+BATCH020,Display Panel Advanced,Product,Finished,42,units,165.00,6930.00,Finished Goods Warehouse,1.5,2.5,1.5,5.5,2024-12-10,Complete
+BATCH021,Connector Assembly A,Product,Stage 1 - Cutting,250,units,12.00,3000.00,Production Floor 1,0.25,0.0,0.0,0.25,2024-12-08,In Progress
+BATCH022,Connector Assembly B,Product,Stage 2 - Assembly,180,units,15.00,2700.00,Production Floor 3,0.25,0.5,0.0,0.75,2024-12-10,In Progress
+BATCH023,Switch Module Single,Product,Finished,140,units,28.00,3920.00,Finished Goods Warehouse,0.5,0.75,0.25,1.5,2024-12-09,Complete
+BATCH024,Switch Module Dual,Product,Stage 3 - Finishing,95,units,42.00,3990.00,Finishing Area,0.75,1.0,0.5,2.25,2024-12-10,In Progress
+BATCH025,Power Supply 12V,Product,Stage 2 - Assembly,85,units,68.00,5780.00,Production Floor 3,1.0,1.5,0.0,2.5,2024-12-08,In Progress
