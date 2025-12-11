@@ -24,3 +24,5 @@ BATCH022,Connector Assembly B,Product,Stage 2 - Assembly,180,units,15.00,2700.00
 BATCH023,Switch Module Single,Product,Finished,140,units,28.00,3920.00,Finished Goods Warehouse,0.5,0.75,0.25,1.5,2024-12-09,Complete
 BATCH024,Switch Module Dual,Product,Stage 3 - Finishing,95,units,42.00,3990.00,Finishing Area,0.75,1.0,0.5,2.25,2024-12-10,In Progress
 BATCH025,Power Supply 12V,Product,Stage 2 - Assembly,85,units,68.00,5780.00,Production Floor 3,1.0,1.5,0.0,2.5,2024-12-08,In Progress
+BATCH025,Power Supply 12V,Product,Stage 2 - Assembly,85,units,68.00,5780.00,Production Floor 3,1.0,1.5,0.0,2.5,2024-12-08,In Progress
+BATCH001,Motor Assembly A,Product,Stage 2 - Assembly,85,units,250.00,21250.00,Production Floor 3,1.0,1.5,0.0,2.5,2024-12-08,In Progress

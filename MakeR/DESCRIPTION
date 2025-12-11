@@ -13,4 +13,5 @@ RoxygenNote: 7.3.3
 Imports:
     dplyr,
     tidyr,
-    stringr
+    stringr,
+    readr

@@ -1,10 +1,11 @@
 #' @export
 load_inventory <- function(file_path) {
   # Load inventory data from a CSV file
-  data <- read.csv(file_path, stringsAsFactors = FALSE)
+  data <- readr::read_csv(file_path)
 
   # Clean data
   data <- data |>
+    tidyr::as_tibble() |>
     tidyr::drop_na() |>
     stringr::str_trim()
 
