@@ -36,4 +36,4 @@
 #'     being processed) or "Complete" (finished all stages).}
 #' }
 #' @source Generateed using Claude 3.5
-"sample_inventory"
+"sample"
