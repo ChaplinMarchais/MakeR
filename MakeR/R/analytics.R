@@ -1,4 +1,17 @@
 #' @export
+#' @title Find Average Stage Time for an Item
+#' @name find_avg_stage_time
+#' @description Calculate the average time spent in each production stage
+#' for a specific item.
+#'
+#' @param item_data A tibble containing data for a specific item.
+#' @param stage_time_postfix A character string indicating the postfix
+#' used to identify stage time columns.
+#'   Default is "_Hours".
+#' @return A tibble with the average time spent in each production stage
+#' for the specified item.
+#' @examples
+#' find_avg_stage_time(sample) # Calculate average stage times for all items in the sample dataset
 find_avg_stage_time <- function(item_data, stage_time_postfix = "_Hours") {
     item_col <- attr(item_data, "item_id_col", exact = TRUE)
 

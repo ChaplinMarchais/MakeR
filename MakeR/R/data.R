@@ -1,5 +1,3 @@
-the <- new.env(parent = emptyenv())
-
 #' Sample Inventory Dataset
 #'
 #' A dataset containing sample inventory data for testing purposes.
