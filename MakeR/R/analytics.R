@@ -53,6 +53,15 @@ find_stage_quantities <- function(item_data, stage_col = "Current_Stage", qty_co
 }
 
 #' @export
+#' @title Find Total Production Time for Items in given data set
+#' @name find_total_production_time
+#' @description Calculate the total production time for items in the dataset.
+#' @param item_data A tibble containing data for any number of items.
+#' @param stage_time_postfix A character string indicating the postfix used to identify stage time columns.
+#'   Default is "_Hours".
+#' @return A tibble with the total production time for each item.
+#' @examples
+#' find_total_production_time(sample) # Calculate total production time for all items in the sample dataset
 find_total_production_time <- function(item_data, stage_time_postfix = "_Hours") {
     item_col <- attr(item_data, "item_id_col", exact = TRUE)
 
