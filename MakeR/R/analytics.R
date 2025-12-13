@@ -27,6 +27,17 @@ find_avg_stage_time <- function(item_data, stage_time_postfix = "_Hours") {
 }
 
 #' @export
+#' @title Find Stage Quantities for an Item
+#' @name find_stage_quantities
+#' @description Calculate the total quantity of items at each production stage.
+#' @param item_data A tibble containing data for any number of items.
+#' @param stage_col A character string indicating the column name for the current production stage.
+#'   Default is "Current_Stage".
+#' @param qty_col A character string indicating the column name for the quantity of items.
+#'   Default is "Quantity".
+#' @return A tibble with the total quantity of items at each production stage.
+#' @examples
+#' find_stage_quantities(sample) # Calculate stage quantities for all items in the sample dataset
 find_stage_quantities <- function(item_data, stage_col = "Current_Stage", qty_col = "Quantity") {
     item_col <- attr(item_data, "item_id_col", exact = TRUE)
 
